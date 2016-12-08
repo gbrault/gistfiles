@@ -82,7 +82,7 @@ http://localhost:1880/sql?sql=pragma table_info('customer')
  nodes: 12, 13, 14, 15, 10
  
 (12) an injection node for testing purpose<br/>
-(13) the function node calculating the acual table size and setting he page size =5<br/>
+(13) the function node calculating the acual table size and setting the page size =5<br/>
       ``` context.global.knex.raw('select Count(*) as count from '+msg.table)```<br/>
 (14) the paging component: a node-red-dashboard template node<br/>
 (15) msg debug node<br/>
