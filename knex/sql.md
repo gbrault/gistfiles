@@ -87,6 +87,40 @@ http://localhost:1880/sql?sql=pragma table_info('customer')
 (14) the paging component: a node-red-dashboard template node<br/>
 (15) msg debug node<br/>
  
+#Detailling "Table View" and "Paging Controller"
 
+##Table View
+
+```html
+<table>
+<tr>
+  <th ng-repeat="(key,value) in table[0]">{{key}}</th>
+</tr>
+<tbody ng-repeat="row in table">
+<tr ng-if="$even">
+  <td ng-repeat="(key,value) in row">{{value}}</td>
+</tr>
+<tr ng-if="$odd">
+  <td style="background-color:#f1f1f1" ng-repeat="(key,value) in row">{{value}}</td>
+</tr>
+</tbody> 
+</table>
+<style>
+table, td  {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+</style>
+<script>
+(function(scope) {
+    // debugger;
+    scope.table=[];
+    scope.$watch('msg', function (newValue, oldValue, scope) {
+            scope.table=JSON.parse(scope.msg.payload)[0];
+    });
+})(scope);    
+</script>
+```
 
 #Install
