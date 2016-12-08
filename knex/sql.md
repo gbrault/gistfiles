@@ -50,11 +50,11 @@ http://localhost:1880/sql?sql=pragma table_info('customer')
 
 * **Operation**
 
-1. an http request is processed by node 1: "sql webservice" (http in)
-2. the "prepare sql" function node set the msg fields from node 1 to comply with node 7 logic
-3. this is a debug node to trace payload value during development
-4. the "http?" function node check if the request comes from webservice or internal request
-5. this block is the http response of block 1
+(1) an http request is processed by node 1: "sql webservice" (http in)<br/>
+(2) the "prepare sql" function node set the msg fields from node 1 to comply with node 7 logic<br/>
+(3) this is a debug node to trace payload value during development<br/>
+(4) the "http?" function node check if the request comes from webservice or internal request<br/>
+(5) this block is the http response of block 1<br/>
 
  
 ##A "Table choice" section: to select one of the tables of Northwind
