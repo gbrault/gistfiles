@@ -12,6 +12,6 @@ Install and flow, nodes documentation to browse an sqlite database in node-red
 
 #Components
 
-![alt tag](https://raw.githubusercontent.com/gbrault/gistfiles/master/knex/knex%20flow.png)
+![alt tag](https://raw.githubusercontent.com/gbrault/gistfiles/39b80f3357924bf288ed1c9890c93ca0d0407c54/knex/knex%20flow.png)
 
 #Install
