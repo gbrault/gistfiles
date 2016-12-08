@@ -61,7 +61,7 @@ http://localhost:1880/sql?sql=pragma table_info('customer')
  nodes: 17, 18, 19, 16
  
 (17) This is an injection node to trigger table gathering at startup<br/>
-      ```context.global.knex.raw('select * from sqlite_master')```
+      ```javscript context.global.knex.raw('select * from sqlite_master')```
 (18) Logic to request and build the table list of Northwind<br/>
 (16) A 'drop-down' node-red-dashboard widget to display and control the table list<br/>
 (19) A debug msg watch<br/>
