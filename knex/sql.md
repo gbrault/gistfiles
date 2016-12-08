@@ -50,7 +50,7 @@ http://localhost:1880/sql?sql=pragma table_info('customer')
 
 * **Operation**
 
-1. an http request is process by node 1: "sql webservice" (http in)
+1. an http request is processed by node 1: "sql webservice" (http in)
 2. the "prepare sql" function node set the msg fields from node 1 to comply with node 7 logic
 3. this is a debug node to trace payload value during development
 4. the "http?" function node check if the request comes from webservice or internal request
