@@ -72,14 +72,20 @@ http://localhost:1880/sql?sql=pragma table_info('customer')
 (6) and (9) test to inject supplier and customer table select page 0 (limit 5 offset 0)* for testing purpose<br/>
 (7) the sql exec logic getting sql queries in input and returning one array per query. Queries are separated by semi-column (;)<br/>
 (4) test if webservice or internal request<br/>
-(8) debug node to watch payload out of sql exec
-(10) sql page request (used by the paging controller)
-(11) gui result as a node-red-dashboard template node
+(8) debug node to watch payload out of sql exec<br/>
+(10) sql page request (used by the paging controller)<br/>
+(11) gui result as a node-red-dashboard template node<br/>
 
 (*) according to sqlite documentation and this might be true for other database backend as well, ordering by rowid is necessary to get the table rows sorted according to the creation order
  
 ##A "paging controller" section: to control table page browsing
  nodes: 12, 13, 14, 15, 10
+ 
+(12) an injection node for testing purpose<br/>
+(13) the function node calculating the acual table size and setting he page size =5<br/>
+      ``` context.global.knex.raw('select Count(*) as count from '+msg.table)```<br/>
+(14) the paging component: a node-red-dashboard template node<br/>
+(15) msg debug node<br/>
  
 
 
