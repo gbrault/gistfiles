@@ -1,6 +1,6 @@
 #Purpose
 
-Install, flow and nodes documentation to browse an sqlite database in node-red
+Install, flow and nodes documentation to create an sqlite database table browser in node-red
 
 #Result
 
