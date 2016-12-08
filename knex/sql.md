@@ -60,10 +60,10 @@ http://localhost:1880/sql?sql=pragma table_info('customer')
 ##A "Table choice" section: to select one of the tables of Northwind
  nodes: 17, 18, 19, 16
  
-(17) This is an injection node to trigger table gathering at startup
-(18) Logic to request and build the table list of Northwind
-(16) A 'drop-down' node-red-dashboard widget to display and control the table list
-(19) A debug msg watch
+(17) This is an injection node to trigger table gathering at startup<br/>
+(18) Logic to request and build the table list of Northwind<br/>
+(16) A 'drop-down' node-red-dashboard widget to display and control the table list<br/>
+(19) A debug msg watch<br/>
  
 ##A "Table view" section: to show a page of the selected table
  nodes: 6,9,7,4,8,10,11
