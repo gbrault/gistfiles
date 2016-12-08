@@ -29,11 +29,11 @@ They are 4 sections in the following flow
  nodes: 1,2,3,7,4,5
  
 json response of any sql query from the url
-Query
+* **Query**
 ```html 
 http://localhost:1880/sql?sql=pragma table_info('customer') 
 ```
-Response
+* **Response**
 ```javascript
 [[{"cid":0,"name":"IdCustomer","type":"text","notnull":0,"dflt_value":null,"pk":1},
 {"cid":1,"name":"CompanyName","type":"text","notnull":0,"dflt_value":null,"pk":0},
