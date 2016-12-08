@@ -17,14 +17,32 @@ They are 4 sections in the following flow
 * A web service which allows direct access to Northwind data
  * nodes: 1,2,3,7,4,5
 * A "Table choice" section: to select one of the tables of Northwind
- * 17, 18, 19, 16
+ * nodes: 17, 18, 19, 16
 * A "Table view" section: to show a page of the selected table
  * nodes: 6,9,7,4,8,10,11
 * A "paging controller" section: to control table page browsing
- * 12, 13, 14, 15, 10
+ * nodes: 12, 13, 14, 15, 10
 
 ![alt tag](https://raw.githubusercontent.com/gbrault/gistfiles/39b80f3357924bf288ed1c9890c93ca0d0407c54/knex/knex%20flow.png)
 
-from the url: i.e. ``` <host>/sql?sql=pragma table_info('customer') ```
+##A web service which allows direct access to Northwind data
+ nodes: 1,2,3,7,4,5
+ 
+json response of any sql query from the url
+
+``` 
+<host>/sql?sql=pragma table_info('customer') 
+```
+ 
+##A "Table choice" section: to select one of the tables of Northwind
+ nodes: 17, 18, 19, 16
+ 
+##A "Table view" section: to show a page of the selected table
+ nodes: 6,9,7,4,8,10,11
+ 
+##A "paging controller" section: to control table page browsing
+ nodes: 12, 13, 14, 15, 10
+ 
+
 
 #Install
