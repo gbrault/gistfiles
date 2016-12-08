@@ -68,6 +68,8 @@ http://localhost:1880/sql?sql=pragma table_info('customer')
 ##A "Table view" section: to show a page of the selected table
  nodes: 6,9,7,4,8,10,11
  
+(6) 
+ 
 ##A "paging controller" section: to control table page browsing
  nodes: 12, 13, 14, 15, 10
  
