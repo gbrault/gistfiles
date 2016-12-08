@@ -122,5 +122,32 @@ table, td  {
 })(scope);    
 </script>
 ```
+##Paging Controller
+
+```html
+<div paging page="page" page-size="page_size" total="total" paging-action="paging(page, pageSize, total)">
+</div> 
+<script>
+(function(scope) {
+    scope.total=0;
+    scope.page_size=5;
+    scope.page=0;
+    scope.$watch('msg', function (newValue, oldValue, scope) {
+        // debugger;
+        if(scope.msg!==undefined){
+            scope.total=scope.msg.total;
+            scope.page_size=scope.msg.page_size;
+        }
+            
+    });
+    scope.paging=function(page,pageSize,total){
+        // debugger;
+        scope.msg.page=page;
+        scope.msg.page_size=pageSize;
+        scope.send(scope.msg);
+    };
+})(scope); 
+</script>
+```
 
 #Install
