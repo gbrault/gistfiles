@@ -69,10 +69,14 @@ http://localhost:1880/sql?sql=pragma table_info('customer')
 ##A "Table view" section: to show a page of the selected table
  nodes: 6,9,7,4,8,10,11
  
-(6) and (9) test to inject supplier and customer table select page 0 (limit 5 offset 0)*
+(6) and (9) test to inject supplier and customer table select page 0 (limit 5 offset 0)*<br/>
+(7) the sql exec logic getting sql queries in input and returning one array per query. Queries are separated by semi-column (;)<br/>
+(4) test if webservice or internal request<br/>
+(8) debug node to watch payload out of sql exec
+(10) sql page request (used by the paging controller)
+(11) gui result as a node-red-dashboard template node
 
-
-(*) according to sqlite documentation and this might be true for otehr database backend as well, ordering by rowid is necessary to get the table rows sorted according to the creation order
+(*) according to sqlite documentation and this might be true for other database backend as well, ordering by rowid is necessary to get the table rows sorted according to the creation order
  
 ##A "paging controller" section: to control table page browsing
  nodes: 12, 13, 14, 15, 10
