@@ -29,9 +29,13 @@ They are 4 sections in the following flow
  nodes: 1,2,3,7,4,5
  
 json response of any sql query from the url
-
-``` 
-<host>/sql?sql=pragma table_info('customer') 
+Query
+```html 
+http://localhost:1880/sql?sql=pragma table_info('customer') 
+```
+Response
+```javascript
+[[{"cid":0,"name":"IdCustomer","type":"text","notnull":0,"dflt_value":null,"pk":1},{"cid":1,"name":"CompanyName","type":"text","notnull":0,"dflt_value":null,"pk":0},{"cid":2,"name":"ContactName","type":"text","notnull":0,"dflt_value":null,"pk":0},{"cid":3,"name":"ContactTitle","type":"text","notnull":0,"dflt_value":null,"pk":0},{"cid":4,"name":"Address","type":"text","notnull":0,"dflt_value":null,"pk":0},{"cid":5,"name":"City","type":"text","notnull":0,"dflt_value":null,"pk":0},{"cid":6,"name":"Region","type":"text","notnull":0,"dflt_value":null,"pk":0},{"cid":7,"name":"PostalCode","type":"text","notnull":0,"dflt_value":null,"pk":0},{"cid":8,"name":"Country","type":"text","notnull":0,"dflt_value":null,"pk":0},{"cid":9,"name":"Phone","type":"text","notnull":0,"dflt_value":null,"pk":0},{"cid":10,"name":"Fax","type":"text","notnull":0,"dflt_value":null,"pk":0}]]
 ```
  
 ##A "Table choice" section: to select one of the tables of Northwind
