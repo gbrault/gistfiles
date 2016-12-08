@@ -154,7 +154,8 @@ table, td  {
 
 0. Node.js, npm, node-red installed
 1. Special install of node-red-dashboard which include angular-paging directive [see](https://github.com/gbrault/node-red-dashboard)
-2. Tweeak of node-red settings.js file
+2. Put Northwind.sqlite in the user directory
+3. Tweeak of node-red settings.js file
 ```javascript
 	knex:require('knex')({
 						client: 'sqlite3',
@@ -164,4 +165,4 @@ table, td  {
 						useNullAsDefault: true
 					})
 ```
-3. Put Northwind.sqlite in the user directory
+
