@@ -1,6 +1,6 @@
 #Purpose
 
-Install and flow, nodes documentation to browse an sqlite database in node-red
+Install, flow and nodes documentation to browse an sqlite database in node-red
 
 #Result
 
