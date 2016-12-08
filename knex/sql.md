@@ -47,6 +47,15 @@ http://localhost:1880/sql?sql=pragma table_info('customer')
 {"cid":9,"name":"Phone","type":"text","notnull":0,"dflt_value":null,"pk":0},
 {"cid":10,"name":"Fax","type":"text","notnull":0,"dflt_value":null,"pk":0}]]
 ```
+
+* **Operation**
+
+1. an http request is process by node 1: "sql webservice" (http in)
+2. the "prepare sql" function node set the msg fields from node 1 to comply with node 7 logic
+3. this is a debug node to trace payload value during development
+4. the "http?" function node check if the request comes from webservice or internal request
+5. this block is the http response of block 1
+
  
 ##A "Table choice" section: to select one of the tables of Northwind
  nodes: 17, 18, 19, 16
