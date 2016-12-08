@@ -69,7 +69,7 @@ http://localhost:1880/sql?sql=pragma table_info('customer')
 ##A "Table view" section: to show a page of the selected table
  nodes: 6,9,7,4,8,10,11
  
-(6) and (9) test to inject supplier and customer table select page 0 (limit 5 offset 0)*<br/>
+(6) and (9) test to inject supplier and customer table select page 0 (limit 5 offset 0)* for testing purpose<br/>
 (7) the sql exec logic getting sql queries in input and returning one array per query. Queries are separated by semi-column (;)<br/>
 (4) test if webservice or internal request<br/>
 (8) debug node to watch payload out of sql exec
