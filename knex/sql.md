@@ -1,3 +1,7 @@
+#Purpose
+
+Install and flow, nodes to browse an squlite database in node-red
+
 #Result
 
 1. Select a table from Northwind database
