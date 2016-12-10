@@ -9,6 +9,7 @@ A set of variables are availble at the flow level. They are accessible using ```
 * columns = an array of structures for each column of the table
 * whereorall = where statement with all the columns of the table
 
+Code
 ```javascript
 /* create the sql getter and setters */
 flow.set('sql',{
