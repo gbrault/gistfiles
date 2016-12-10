@@ -1,5 +1,25 @@
 #Purpose
-Get the count of rows for the current table, applying whereorall condition (if search is <>"")
+Get the count of rows for the current table, applying whereorall condition (if search !=="")
+
+#Flow variable
+##Expected
+*qtota
+*page_size
+*page
+*search
+
+##Setting
+*total
+
+#Message
+##In
+
+
+##Out
+
+* msg.total
+* msg.page_size
+* msg.page
 
 #Code
 ```javascript
