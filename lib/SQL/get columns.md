@@ -14,6 +14,7 @@ an array of object
 #Message
 ##In
 * msg.payload = table
+
 ##Out
 * msg in
 
