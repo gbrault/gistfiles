@@ -5,23 +5,14 @@ Get the count of rows for the current table, applying whereorall condition (if s
 `select Count(*) as count from '+flow.get('sql').table+ flow.get('sql').whereorall`
 
 #Context
-| Flow variable
-| Expected	| Setting |
-| qtota	| total |
-| table	|  |
-| page_size |  |
-| page |  |
-| search |  |
-
-#Message
-##In
-
-
-##Out
-
-* msg.total
-* msg.page_size
-* msg.page
+| Flow variable |		|Message	|		|
+| ------------- | ------------- | ------------- | ------------- |
+| **Expected**	| **Setting** 	| **In**	| **Out**	|
+| qtota		| total 	|		| msg.total	|
+| table		|  		|		| msg.page_size	|
+| page_size 	|  		|		|  msg.page	|
+| page 		|  		|		|		|
+| search 	|  		|		|		|
 
 #Code
 ```javascript
