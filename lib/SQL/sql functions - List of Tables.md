@@ -4,7 +4,7 @@ A set of variables are availble at the flow level. They are accessible using ```
 * total = row count of table
 * page_size = page size parameter
 * page = page number starts at 1
-* qpage = sql query to get a table page of page_size
+* qpage = sql query to get a table page of page_size  (use whereorall)
 * search = the sentence to search in the current table
 * columns = an array of structures for each column of the table
 * whereorall = where statement with all the columns of the table
