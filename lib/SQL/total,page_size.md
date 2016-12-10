@@ -4,17 +4,14 @@ Get the count of rows for the current table, applying whereorall condition (if s
 #SQL Request
 `select Count(*) as count from '+flow.get('sql').table+ flow.get('sql').whereorall`
 
-#Flow variable
-##Expected
-
-* qtota
-* table
-* page_size
-* page
-* search
-
-##Setting
-* total
+#Context
+| Flow variable
+| Expected	| Setting |
+| qtota	| total |
+| table	|  |
+| page_size |  |
+| page |  |
+| search |  |
 
 #Message
 ##In
