@@ -1,5 +1,5 @@
 #Purpose
-Get the count of rows for the current table, appying whereorall condition (if search is <>"")
+Get the count of rows for the current table, applying whereorall condition (if search is <>"")
 
 #Code
 ```javascript
