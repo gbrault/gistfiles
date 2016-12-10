@@ -10,11 +10,14 @@ set msg.payload with qpage request (which use whereorall)
 
 #SQL Request
 ```javascript
-"select rowid, * from  "+
-flow.get('sql').table+flow.get('sql').whereorall+" order by rowid limit "+
-flow.get('sql').page_size+" offset "+flow.get('sql').page_size*(flow.get('sql').page-1)
+"select rowid, * from  "+   // requesting ordering with rowid to get table rows creation order (this is database backend dependent) 
+flow.get('sql').table+      // table flow variable
+flow.get('sql').whereorall+ // whereall which make an or of all columns like
+" order by rowid limit "+
+flow.get('sql').page_size+  // page_size flow variable
+" offset "+
+flow.get('sql').page_size*(flow.get('sql').page-1)  // page flow variable
 ```
-requesting ordering with rowid is requested to get table rows creation order (this is database backend dependent) 
 
 #Code
 ```javascript
