@@ -1,5 +1,5 @@
 #Purpose
-set msg.payload with qpage request
+set msg.payload with qpage request (which use whereorall)
 
 #Code
 ```javascript
