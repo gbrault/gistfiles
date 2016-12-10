@@ -11,12 +11,12 @@ an array of object
  "dflt_value":null,         /* default value            */
  "pk":1}                    /* is it part of the primary key */
  ```
-#Message
-##In
-* msg.payload = table
+#Context
+| Flow variable |				           |Message		             |				           |
+| ------------- | ------------- | -------------------- | ------------- |
+| **Expected** 	| **Setting** 	 | **In**		             | **Out**		     |
+|          	    | table         |	msg.payload := table |             	 |
 
-##Out
-* msg in
 
 #CODE
 ```javascript
