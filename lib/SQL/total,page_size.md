@@ -1,6 +1,9 @@
 #Purpose
 Get the count of rows for the current table, applying whereorall condition (if search !=="")
 
+#SQL Request
+`select Count(*) as count from '+flow.get('sql').table+ flow.get('sql').whereorall`
+
 #Flow variable
 ##Expected
 
