@@ -1,5 +1,5 @@
 #Purpose
-This function node set all the flow level variables and list the database tables
+This function node set all the flow level variables and list the database tables (msg.options)
 
 #Variables
 A set of variables are available at the flow level. They are accessible using ```flow.get('sql').'variable symbole'```
