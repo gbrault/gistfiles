@@ -1,4 +1,16 @@
+A set of variables are availble at the flow level. They are accessible using ```flow.get('sql').'variable symbole'```
+* table = table name
+* qtotal = sql query to get table count (use whereorall)
+* total = row count of table
+* page_size = page size parameter
+* page = page number starts at 1
+* qpage = sql query to get a table page of page_size
+* search = the sentence to search in the current table
+* columns = an array of structures for each column of the table
+* whereorall = where statement with all the columns of the table
+
 ```javascript
+/* create the sql getter and setters */
 flow.set('sql',{
     get table() { return flow.get('table');},
     set table(t) { flow.set('table',"'"+t+"'");},
