@@ -10,8 +10,9 @@ set msg.payload with qpage request (which use whereorall)
 
 #SQL Request
 ```javascript
-select rowid, * from  "+flow.get('sql').table+flow.get('sql').whereorall+" order by rowid limit "+
-                        flow.get('sql').page_size+" offset "+flow.get('sql').page_size*(flow.get('page')-1)
+"select rowid, * from  "+
+flow.get('sql').table+flow.get('sql').whereorall+" order by rowid limit "+
+flow.get('sql').page_size+" offset "+flow.get('sql').page_size*(flow.get('sql').page-1)
 ```
 requesting ordering with rowid is requested to get table rows creation order (this is database backend dependent) 
 
