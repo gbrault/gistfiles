@@ -8,7 +8,7 @@
  * total,page_size [see](https://github.com/gbrault/gistfiles/blob/master/lib/SQL/total%2Cpage_size.md)
  * save search [see](https://github.com/gbrault/gistfiles/blob/master/lib/SQL/save%20search.md)
  * sql page request [see](https://github.com/gbrault/gistfiles/blob/master/lib/SQL/sql%20page%20request.md)
- * sql exec [see]()
+ * sql exec [see](https://github.com/gbrault/gistfiles/blob/master/lib/SQL/sql%20exec.md)
 * ui nodes (node-red-dashboard)
  * Table choice [see]()
  * paging controller [see]()
