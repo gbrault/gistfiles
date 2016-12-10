@@ -5,6 +5,7 @@ Get the count of rows for the current table, applying whereorall condition (if s
 ##Expected
 
 * qtota
+* table
 * page_size
 * page
 * search
