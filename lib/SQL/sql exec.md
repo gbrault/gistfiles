@@ -3,16 +3,16 @@ execute a series of sql requests (separated with ;) and return an array of respo
 
 #Context
 
-| Flow variable |				        |Message		                         |				                                   |
-| ------------- | ------------- | ---------------------------------- | ----------------------------------------- |
-| **Expected**	| **Setting** 	| **In**		                         | **Out**		                               |
-|         		  |         		  |	msg.payload	:= sql statements      |  msg.payload := [[response1],[response2]] |
+| Flow variable |	        |Message		             |				                 	|
+| ------------- | ------------- | ---------------------------------- | ------------------------------------------------ |
+| **Expected**	| **Setting** 	| **In**		             | **Out**		                         	|
+|               |  		| msg.payload	:= sql statements    |  msg.payload := [jsonresponse1,jsonresponse2] 	|
 
 ##Use of flow variable
-this node manage statements, count and exec flow variable
+this node manage statements, count and exec flow variables
 * statements: split of incoming msg.payload (separated by ;)
 * count: which is the next active statement
-* exec: function that is recursively called till all statements are executed
+* exec: function that is recursively called till all statements executed
 
 #Code
 ```javascript
