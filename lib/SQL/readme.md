@@ -5,6 +5,12 @@
 ###Result
 ![alt-tag](https://raw.githubusercontent.com/gbrault/gistfiles/master/lib/SQL/browse%20%26%20search.png)
 
+1. Total number of rows selected (table + search)
+2. Dropdown to select a table from the database
+3. Search input (set to sales in our example)
+4. resulting rows of the current page (blue highlighted button of the paging selector)
+5. paging selector
+
 ###Components
 this library needs [node-red-dashboard](https://github.com/gbrault/node-red-dashboard) fork and requires [knex](https://www.npmjs.com/package/knex)
 
