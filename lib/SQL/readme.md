@@ -19,16 +19,21 @@
 
 ###Node Red
 
-| N.  | Name              | Node Type           | Comment                                                                 |
-| --- | ----------------- | ------------------- | ----------------------------------------------------------------------- |
-|  01 | sql webservice    | http request server | sql webservice http://host:port/sql?sql=request                         |
-|  02 | prepare sql       | function            | arrange request to prepare sql request                                  |
-|  03 | msg.payload       | debug               | debugging                                                               |
-|  04 | http?             | function            | check if request comes from webservice or internal                      |
-|  05 | http              | http response       | response from http request                                              |
-|  06 | supplier          | inject              | inject supplier sql request for testing purpose                         |
-|  07 | sql exec          | function            | execute sql request using knex                                          |
-|  08 | msg.payload       | debug               | debugging                                                               |
-|  09 | customer          | inject              | inject customer sql request for testing purpose                         |
+| N.  | Name              | Node Type            | Comment                                                                 |
+| --- | ----------------- | -------------------- | ----------------------------------------------------------------------- |
+|  01 | sql webservice    | http request server  | sql webservice http://host:port/sql?sql=request                         |
+|  02 | prepare sql       | function             | process http request variables to prepare sql request                   |
+|  03 | msg.payload       | debug                | debugging                                                               |
+|  04 | http?             | function             | check if request comes from webservice or internal                      |
+|  05 | http              | http response        | response from http request                                              |
+|  06 | supplier          | inject               | inject supplier sql request for testing purpose                         |
+|  07 | sql exec          | function             | execute sql request using knex                                          |
+|  08 | msg.payload       | debug                | debugging                                                               |
+|  09 | customer          | inject               | inject customer sql request for testing purpose                         |
+|  10 | sql page request  | function             | build the sql page request based upon global flow variables             |
+|  11 | Table View        | dashboard template   | build angular.js table view user interface                              |
+|  12 | search            | dashboard text input | search input user interface                                             |
+
+
 
 ![alt_tag](https://raw.githubusercontent.com/gbrault/gistfiles/master/lib/SQL/Sqlite%20Table%20Browse%20and%20Search.png)
