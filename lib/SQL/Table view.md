@@ -1,5 +1,7 @@
 #Purpose
 
+Dynamic display as a grid of the sql table, highlighting the search text.
+
 #Context
 |Message		    |				        |
 | ------------- | ------------- |
