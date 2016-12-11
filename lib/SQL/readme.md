@@ -2,6 +2,8 @@
 
 ##knex 2.0: Browse and Search any table in an SQLITE Database
 
+this library needs [node-red-dashboard](https://github.com/gbrault/node-red-dashboard) fork
+
 * function nodes
  * sql functions + List of Tables [see](https://github.com/gbrault/gistfiles/blob/master/lib/SQL/sql%20functions%20-%20List%20of%20Tables.md)
  * get columns [see](https://github.com/gbrault/gistfiles/blob/master/lib/SQL/get%20columns.md)
@@ -15,9 +17,9 @@
  * total [see]()
  * Table view [see]()
  
-##Flow example
+###Flow example
 
-###Node Red
+####Node Red (see flow image below table)
 
 | N.  | Name              | Node Type            | Comment                                                                 |
 | --- | ----------------- | -------------------- | ----------------------------------------------------------------------- |
