@@ -37,4 +37,4 @@
 |  13 | save search       | function             | save the search text into a flow variable                               |
 |  09 | customer          | inject               | inject customer table for testing purpose                                |
 
-![alt_tag](https://raw.githubusercontent.com/gbrault/gistfiles/master/lib/SQL/Sqlite%20Table%20Browse%20and%20Search.png)
+![alt_tag](https://raw.githubusercontent.com/gbrault/gistfiles/13e5dfd892fa8e0930948830aecee9b33a8397a5/lib/SQL/Sqlite%20Table%20Browse%20and%20Search.png)
