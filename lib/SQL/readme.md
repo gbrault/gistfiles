@@ -25,10 +25,10 @@
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-| N. | name              | comment                                                                 |
-| -- | ----------------- | ----------------------------------------------------------------------- |
-| 01 | sql webservice    | http request server for sql webservice                                  |
-| 02 | sql webservice    | http request server for sql webservice                                  |
+| N.  | Name              | Comment                                                                 |
+| --- | ----------------- | ----------------------------------------------------------------------- |
+|  01 | sql webservice    | http request server for sql webservice                                  |
+|  02 | sql webservice    | http request server for sql webservice                                  |
     
 
 ![alt_tag](https://raw.githubusercontent.com/gbrault/gistfiles/master/lib/SQL/Sqlite%20Table%20Browse%20and%20Search.png)
