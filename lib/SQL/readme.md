@@ -19,16 +19,11 @@
 
 ###Node Red
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
-| N.  | Name              | Comment                                                                 |
-| --- | ----------------- | ----------------------------------------------------------------------- |
-|  01 | sql webservice    | http request server for sql webservice                                  |
-|  02 | sql webservice    | http request server for sql webservice                                  |
+| N.  | Name              | Type                | Comment                                                                 |
+| --- | ----------------- | ------------------- | ----------------------------------------------------------------------- |
+|  01 | sql webservice    | http request server | sql webservice http://host:port/sql?sql=request                         |
+|  02 | prepare sql       | function            | arrange request to prepare sql request                                  |
     
 
 ![alt_tag](https://raw.githubusercontent.com/gbrault/gistfiles/master/lib/SQL/Sqlite%20Table%20Browse%20and%20Search.png)
