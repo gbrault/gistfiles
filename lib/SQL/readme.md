@@ -32,9 +32,11 @@
 |  09 | customer          | inject               | inject customer sql request for testing purpose                         |
 |  10 | sql page request  | function             | build the sql page request based upon global flow variables             |
 |  11 | Table View        | dashboard template   | build angular.js table view user interface                              |
-|     | msg               | debug                | debugging                                                               |
+| 10a | msg               | debug                | debugging                                                               |
 |  12 | search            | dashboard text input | search input user interface                                             |
 |  13 | save search       | function             | save the search text into a flow variable                               |
-|  09 | customer          | inject               | inject customer table for testing purpose                                |
+|  14 | customer          | inject               | inject customer table for testing purpose                               |
+|  15 | total, page_size  | function             | put flow variable in message stream: total, page_size, page             |
+|  16 | paging controller | dashboard template   | build paging view user interface (based upon angular-paging directive   |
 
 ![alt_tag](https://raw.githubusercontent.com/gbrault/gistfiles/13e5dfd892fa8e0930948830aecee9b33a8397a5/lib/SQL/Sqlite%20Table%20Browse%20and%20Search.png)
