@@ -35,6 +35,6 @@
 |     | msg               | debug                | debugging                                                               |
 |  12 | search            | dashboard text input | search input user interface                                             |
 |  13 | save search       | function             | save the search text into a flow variable                               |
-|  09 | customer          | inject               | inject customer table for testing purpose                               |
+|  09 | customer          | inject               | inject customer table for testing purpose                                |
 
 ![alt_tag](https://raw.githubusercontent.com/gbrault/gistfiles/master/lib/SQL/Sqlite%20Table%20Browse%20and%20Search.png)
