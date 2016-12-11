@@ -1,6 +1,6 @@
 #Purpose
 
-display the total number of rows correspondning to the table and search input
+display the total number of rows corresponding to the table and search input
 
 #Context
 |Message		    |				        |
