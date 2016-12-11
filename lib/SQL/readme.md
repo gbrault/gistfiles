@@ -8,7 +8,7 @@
 1. Total number of rows selected (table + search)
 2. Dropdown to select a table from the database
 3. Search input (set to sales in our example)
-4. resulting rows of the current page (blue highlighted button of the paging selector)
+4. resulting rows of the current page (blue highlighted button of the paging selector) layout in a grid with alternate background (search text highlighted in yellow)
 5. paging selector
 
 ###Components
