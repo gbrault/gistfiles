@@ -11,6 +11,6 @@
  * sql exec [see](https://github.com/gbrault/gistfiles/blob/master/lib/SQL/sql%20exec.md)
 * ui nodes (node-red-dashboard)
  * Table choice [see](https://github.com/gbrault/gistfiles/blob/master/lib/SQL/Table%20choice.md)
- * paging controller [see]()
+ * paging controller [see](https://github.com/gbrault/gistfiles/blob/master/lib/SQL/paging%20controller.md)
  * total [see]()
  * Table view [see]()
