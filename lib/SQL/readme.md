@@ -15,7 +15,7 @@ this library needs [node-red-dashboard](https://github.com/gbrault/node-red-dash
  * Table choice [see](https://github.com/gbrault/gistfiles/blob/master/lib/SQL/Table%20choice.md)
  * paging controller [see](https://github.com/gbrault/gistfiles/blob/master/lib/SQL/paging%20controller.md)
  * total [see](https://github.com/gbrault/gistfiles/blob/master/lib/SQL/total.md)
- * Table view [see]()
+ * Table view [see](https://github.com/gbrault/gistfiles/blob/master/lib/SQL/Table%20view.md)
  
 ###Flow example
 
