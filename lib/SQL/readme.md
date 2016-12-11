@@ -19,11 +19,16 @@
 
 ###Node Red
 
-
-| N.  | Name              | Type                | Comment                                                                 |
+| N.  | Name              | Node Type           | Comment                                                                 |
 | --- | ----------------- | ------------------- | ----------------------------------------------------------------------- |
 |  01 | sql webservice    | http request server | sql webservice http://host:port/sql?sql=request                         |
 |  02 | prepare sql       | function            | arrange request to prepare sql request                                  |
-    
+|  03 | msg.payload       | debug               | debugging                                                               |
+|  04 | http?             | function            | check if request comes from webservice or internal                      |
+|  05 | http              | http response       | response from http request                                              |
+|  06 | supplier          | inject              | inject supplier sql request for testing purpose                         |
+|  07 | sql exec          | function            | execute sql request using knex                                          |
+|  08 | msg.payload       | debug               | debugging                                                               |
+|  09 | customer          | inject              | inject customer sql request for testing purpose                         |
 
 ![alt_tag](https://raw.githubusercontent.com/gbrault/gistfiles/master/lib/SQL/Sqlite%20Table%20Browse%20and%20Search.png)
