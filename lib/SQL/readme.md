@@ -14,3 +14,8 @@
  * paging controller [see](https://github.com/gbrault/gistfiles/blob/master/lib/SQL/paging%20controller.md)
  * total [see]()
  * Table view [see]()
+ 
+##Flow example
+
+###Node Red
+![alt_tag](https://raw.githubusercontent.com/gbrault/gistfiles/master/lib/SQL/Sqlite%20Table%20Browse%20and%20Search.png)
