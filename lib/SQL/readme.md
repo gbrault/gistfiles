@@ -2,7 +2,7 @@
 
 ##knex 2.0: Browse and Search any table in an SQLITE Database
 
-this library needs [node-red-dashboard](https://github.com/gbrault/node-red-dashboard) fork
+this library needs [node-red-dashboard](https://github.com/gbrault/node-red-dashboard) fork and requires [knex](https://www.npmjs.com/package/knex)
 
 * function nodes
  * sql functions + List of Tables [see](https://github.com/gbrault/gistfiles/blob/master/lib/SQL/sql%20functions%20-%20List%20of%20Tables.md)
