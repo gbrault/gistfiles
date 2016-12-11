@@ -2,6 +2,10 @@
 
 ##knex 2.0: Browse and Search any table in an SQLITE Database
 
+###Result
+![alt-tag](https://raw.githubusercontent.com/gbrault/gistfiles/master/lib/SQL/browse%20%26%20search.png)
+
+###Components
 this library needs [node-red-dashboard](https://github.com/gbrault/node-red-dashboard) fork and requires [knex](https://www.npmjs.com/package/knex)
 
 * function nodes
