@@ -19,7 +19,7 @@
 
 ###Node Red
 
-| N° | name              | comment                                                                 |
+| N. | name              | comment                                                                 |
 | -- | ----------------- | ----------------------------------------------------------------------- |
 |  1 | sql webservice    | http request server for sql webservice                                  |
 
