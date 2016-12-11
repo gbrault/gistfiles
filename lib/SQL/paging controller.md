@@ -3,10 +3,10 @@
 The role of this human interface is to control table browsing.
 
 #Context
-|Message		    |				        |
+|Message		|				|
 | ------------- | ------------- |
-| **In**		    | **Out**		    |
-|	msg.total			| msg.page    	|
+| **In**		| **Out**		|
+|	msg.total	| msg.page    	|
 | msg.page_size | msg.page_size |
 | msg.page      |               |
 
